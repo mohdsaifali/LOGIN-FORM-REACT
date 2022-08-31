@@ -1,0 +1,43 @@
+.login-signup-container{
+    display: grid;
+    grid-template-columns: 50% 50% 50%;
+    width: 80%;
+    height: 650px;
+    background-color: #fff;
+    padding: 0;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    overflow: hidden;
+    transition: 0.3s linear;
+}
+.login-signup-container.active{
+    grid-template-columns:0% 30% 70% ;
+    transition: 0.3s linear;
+}
+.login-signup-container .side-div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: rgb(232, 102, 55);
+    background-size:cover ;
+    background-position: center;
+    justify-content: center;
+}
+.login-signup-container .side-div button{
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 30px;
+    color: #fff;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: 0.2s linear;
+}
+.login-signup-container .side-div button:hover{
+    background-color: rgb(55, 54, 54);
+    border: 1px solid black;
+
+}
